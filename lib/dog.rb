@@ -91,4 +91,3 @@ require_relative '../config/environment.rb'
           DB[:conn].execute(sql, self.name, self. breed, self.id)
         end
   end
-end
